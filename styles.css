@@ -1,0 +1,39 @@
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialised;
+}
+
+a {
+  text-decoration: none;
+  color: #252828;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto ;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+nav > a {
+  margin-right: 48px;
+}
+
+nav > a:last-child{
+  margin-right: 0;;
+}
